@@ -419,8 +419,6 @@ h6 {
 
 .form-text {
   display: block;
-  position: absolute;
-  top: -21px;
   color: #000000;
   font-family: Rubik;
   font-size: 15px;
@@ -551,6 +549,111 @@ h6 {
 
 .top-heder-list a:hover {
   color: #ffc000;
+}
+
+@media (min-width: 641px) {
+  .form-text {
+    position: absolute;
+    top: -21px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    width: 100%;
+  }
+
+  .header-container {
+    padding: 15px;
+    position: relative;
+  }
+
+  .top-logo-container {
+    position: absolute;
+    right: 15px;
+  }
+
+  .top-logo {
+    width: 90px;
+  }
+
+  .top-logo-flag {
+    width: 12px;
+    height: 11px;
+    top: 116px;
+  }
+
+  .select-container {
+    display: none;
+    width: 110px;
+  }
+
+  .select {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-title {
+    font-size: 30px;
+    padding-top: 150px;
+  }
+
+  .top-text {
+    font-size: 20px;
+  }
+
+  .form-container {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 10px;
+  }
+
+  .top-heder-item {
+    display: none;
+  }
+
+  .search-field {
+    width: 260px;
+  }
+
+  .form-row-calendar-start {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .date-form {
+    width: 260px;
+  }
+
+  .buttom-form {
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .spanborder {
+    display: none;
+  }
+
+  .top-heder-link {
+    font-size: 12px;
+  }
+
+  .hedear-bottom-text {
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-text {
+    font-size: 12px;
+  }
 }
 
 .webp .header{ background-image: url(../img/header/header.webp); }
